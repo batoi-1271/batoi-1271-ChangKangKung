@@ -1,0 +1,19 @@
+.slide {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.chuyenslide {
+    /* margin-top: 100px; */
+    transition: all 3s;
+}
+
+.chuyenslide img {
+    width: 23rem;
+    height: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+.chuyenslide li {
+    margin-left: 40px;
+}

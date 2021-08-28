@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap");
+main .product .card .card-body .btn:hover, .content-menu li .product .card .card-body .btn:hover {
+  background-color: #4ecdc4;
+  color: #1a535c;
+}
+
+main .BookOnline .content-BO .form-BO .book .custom-btn, .content-menu li .BookOnline .content-BO .form-BO .book .custom-btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #f7fff7;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 {
+  background: #ff6b6b;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:before, main .BookOnline .content-BO .form-BO .book .btn-7:after, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:after {
+  position: absolute;
+  content: "";
+  background: #ff6b6b;
+  -webkit-box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9), -4px -4px 5px 0px rgba(255, 255, 255, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9), -4px -4px 5px 0px rgba(255, 255, 255, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  right: 0;
+  bottom: 0;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:after, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:hover, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:hover {
+  color: #ff6b6b !important;
+  background: transparent;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:hover:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:hover:before {
+  height: 100%;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7:hover:after, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7:hover:after {
+  width: 100%;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:before,
+main .BookOnline .content-BO .form-BO .book .btn-7 span:after,
+.content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:after {
+  left: 0;
+  top: 0;
+  position: absolute;
+  content: "";
+  background: #ff6b6b;
+  -webkit-box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9), -4px -4px 5px 0px rgba(255, 255, 255, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9), -4px -4px 5px 0px rgba(255, 255, 255, 0.9), 7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span:after,
+.content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span:hover:before, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:hover:before {
+  height: 100%;
+}
+
+main .BookOnline .content-BO .form-BO .book .btn-7 span:hover:after, .content-menu li .BookOnline .content-BO .form-BO .book .btn-7 span:hover:after {
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: normal;
+          box-sizing: normal;
+}
+
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+main .heading h3, .content-menu li .heading h3, .BookOnline .heading h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #ff6b6b;
+}
+
+main .heading p, .content-menu li .heading p {
+  font-style: oblique;
+  font-size: 1rem;
+  color: #1a535c;
+  letter-spacing: 2px;
+}
+
+main, .content-menu li {
+  background-color: #f7fff7;
+}
+
+.navbar, .navbar .dropdown-menu {
+  background-color: #1a535c;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  color: #ecd702 !important;
+}
+
+.navbar a, .navbar .dropdown-menu a {
+  color: #f7fff7 !important;
+  font-size: 1.1rem;
+}
+
+.navbar .dropdown-menu a:hover {
+  background-color: #f7fff7 !important;
+  color: black !important;
+}
+
+.content-menu p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #1a535c;
+  margin-top: 10px;
+}
+
+.content-menu li {
+  color: #1a535c;
+  font-weight: bold;
+  border-bottom: 2px solid #4ecdc4 !important;
+  cursor: pointer;
+}
+
+.content-menu li:hover {
+  border-left: 5px solid #ff6b6b !important;
+}
+
+.product .card {
+  cursor: pointer;
+}
+
+.product .card:hover {
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.product .card .img {
+  overflow: hidden;
+}
+
+.product .card .img .card-img-top {
+  -webkit-transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out;
+  transition: transform 1s, filter 2s ease-in-out, -webkit-transform 1s, -webkit-filter 2s ease-in-out;
+}
+
+.product .card .img .card-img-top:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.product .card .card-body h5 {
+  text-transform: uppercase;
+  color: #fcaf17;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product .card .card-body .btn {
+  background-color: #fcaf17;
+  border: none;
+  width: 100px;
+}
+
+.introduce .content-ID {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.introduce .content-ID h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  color: #ff6b6b;
+}
+
+.introduce .content-ID h4 {
+  color: #ffe66d;
+  text-shadow: 2px 2px #ff6b6b;
+}
+
+.introduce .content-ID a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.BookOnline .heading p {
+  font-style: oblique;
+  font-size: 1.5rem;
+  color: #1a535c;
+}
+
+.BookOnline .content-BO .form-BO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid red;
+}
+
+.BookOnline .content-BO .form-BO .form-space {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-icon .fas {
+  font-size: 1.5rem;
+  color: #ff6b6b;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input {
+  border-bottom: 1px solid #1a535c;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input input {
+  border: none;
+  outline: none;
+  background-color: #f7fff7;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input select {
+  border: none;
+  outline: none;
+  background-color: #f7fff7;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input textarea {
+  border: none;
+  outline: none;
+  background-color: #f7fff7;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input ::-webkit-input-placeholder,
+.BookOnline .content-BO .form-BO .form-space .form-input :optional {
+  margin-bottom: 10px;
+  color: #1a535c;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input :-ms-input-placeholder,
+.BookOnline .content-BO .form-BO .form-space .form-input :optional {
+  margin-bottom: 10px;
+  color: #1a535c;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input ::-ms-input-placeholder,
+.BookOnline .content-BO .form-BO .form-space .form-input :optional {
+  margin-bottom: 10px;
+  color: #1a535c;
+}
+
+.BookOnline .content-BO .form-BO .form-space .form-input ::placeholder,
+.BookOnline .content-BO .form-BO .form-space .form-input :optional {
+  margin-bottom: 10px;
+  color: #1a535c;
+}
+
+.BookOnline .content-BO .form-BO .book button {
+  width: 150px;
+  height: 40px;
+}
+
+.news .content-News .text h5 {
+  color: #ff6b6b;
+  font-size: 1.2rem;
+}
+
+.news .content-News .text p {
+  font-size: 0.8rem;
+}
+
+.news .content-News .text a {
+  border-top: 3px solid #ff6b6b;
+  color: #ff6b6b;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  color: #1a535c;
+}
+
+.section-menu #menu .heading {
+  border-bottom: 3px solid #1a535c;
+  width: 200px;
+  margin: auto;
+}
+
+.section-menu #menu .menu-list p {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #1a535c;
+}
+
+footer {
+  background-color: #1a535c;
+}
+
+footer .office .content-FT h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffe66d;
+}
+
+footer .office .content-FT p {
+  margin-bottom: -4px;
+  color: #f7fff7;
+}
+
+footer .app h5 {
+  font-family: Cormorant;
+  color: #f7fff7;
+}
+
+footer .icon .contact li .fab {
+  font-size: 2.3rem;
+  color: #f7fff7;
+}
+
+footer .icon .time p {
+  color: #f7fff7;
+}
+
+footer .icon .time #time-open {
+  border-bottom: 1px solid #f7fff7;
+}
+
+footer .icon .time #time-num {
+  margin-top: -20px;
+  color: #ffe66d;
+  font-size: 1.5rem;
+}
+
+footer .icon .time #time .fas {
+  font-size: 2.3rem;
+  color: #f7fff7;
+}
+
+footer .copyright {
+  border-top: 1px solid #f7fff7;
+}
+
+footer .copyright p {
+  color: #f7fff7;
+}
+/*# sourceMappingURL=index.css.map */

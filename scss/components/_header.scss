@@ -1,0 +1,32 @@
+       .navbar {
+            background-color: $colorText;
+            .navbar-brand {
+                font: {
+                    weight: bold;
+                    family: "Bebas Neue", cursive;
+                    size: 1.7rem;
+                }
+
+                letter-spacing: 2px;
+                color: rgb(236, 215, 2) !important;
+            }
+
+            a {
+                color: $colorBG !important;
+                font-size: 1.1rem;
+            }
+
+            .dropdown-menu {
+                @extend .navbar;
+
+                a {
+                    &:hover {
+                        background-color: $colorBG !important;
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    
+
+    

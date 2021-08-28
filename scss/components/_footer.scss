@@ -1,0 +1,59 @@
+footer {
+    background-color: $colorText;
+    .office {
+        .content-FT {
+            h4 {
+                font: {
+                    size: 1.1rem;
+                    weight: bold;
+                }
+                color: $colorBtn;
+            }
+            p {
+                margin-bottom: -4px;
+                color: $colorBG;
+            }
+        }
+    }
+    .app {
+        h5 {
+            font-family:Cormorant;
+            color: $colorBG ;
+        }
+    }
+    .icon {
+        .contact {
+            li {
+                // margin-left: 20px;
+            .fab {
+                @include icon;
+            }
+        }
+        }
+        .time {
+            p {
+            color: $colorBG ;
+            }
+            #time-open {
+                border-bottom: 1px solid $colorBG;
+            }
+            #time-num {
+                margin-top: -20px;
+                color: $colorBtn;
+                font-size: 1.5rem;
+            }
+            #time {
+                .fas {
+                    @include icon;
+                }
+            }
+        }
+    }
+    .copyright {
+        border-top: 1px solid $colorBG;
+        p {
+            color: $colorBG ;
+
+        }
+    }
+}
