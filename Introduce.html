@@ -17,6 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/menu.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="js/main.js"></script>
 </head>
 
@@ -60,7 +62,7 @@
         <section class="introduce">
             <div class="container-fluid mt-5">
                 <div class="row justify-content-center">
-                    <div class="content-ID col-md-6 text-center">
+                    <div class="content-ID col-md-6 text-center"  data-aos="flip-left">
                         <h3 class="">-Lorem ipsum-</h3>
                         <h4 class="">CHANG KANG KUNG - NHÀ HÀNG HẤP THỦY NHIỆT</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -69,7 +71,7 @@
                         <!-- <a href="">XEM THÊM...</a> -->
                     </div>
                 
-                <div class="content-img col-md-5">
+                <div class="content-img col-md-5" data-aos="flip-right">
                     <img src="./assets/Introduce/nhahang.jpg" alt="" class="img-fluid">
                 </div>
                 </div>
@@ -78,7 +80,7 @@
         <section class="story">
             <div class="container-fluid mt-5">
                 <div class="row justify-content-center">
-                    <div class="img-ST col-md-5">
+                    <div class="img-ST col-md-5" >
                         <img src="./assets/Introduce/cauchuyenthuonghieu.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="content col-md-6">
@@ -91,10 +93,10 @@
             </div>
         </section>
 
-        <section class="section-3">
+        <section class="section-3" >
             <div class="container-fluid mt-5">
                 <div class="row justify-content-center">
-                    <div class="content col-md-6">
+                    <div class="content col-md-6" data-aos="fade-right" data-aos-duration="3000">
                         <h3 class="">Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. 
@@ -102,7 +104,8 @@
                         <!-- <a href="">XEM THÊM...</a> -->
                     </div>
                 
-                <div class="content-img col-md-5">
+                <div class="content-img col-md-5 " data-aos="fade-left"
+                data-aos-duration="3000">
                     <img src="./assets/Introduce/tinhhoa.jpg" alt="" class="img-fluid">
                 </div>
             </div>
@@ -111,10 +114,10 @@
         <section class="section-4 section-fix">
             <div class="container-fluid mt-5">
                 <div class="row justify-content-center">
-                    <div class="content-img col-md-5">
+                    <div class="content-img col-md-5" data-aos="fade-right" data-aos-duration="3000">
                         <img src="./assets/Introduce/khonggian.jpg" alt="" class="img-fluid">
                     </div>
-                    <div class="content col-md-6">
+                    <div class="content col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <h3 class="">Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. 
@@ -301,6 +304,10 @@
             <p>© 2021 Nhà hàng Chang Kang Kung</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
